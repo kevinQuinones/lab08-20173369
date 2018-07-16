@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+body{
+font: 20px Eras Demi ITC;
+padding: 0;
+margin: 0;
+background: color white solid;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: left;
+}
+.contenedor{
+	width: 80%;
+	margin:auto;
+	overflow:hidden;
+}
+ul{
+	margin:0;
+	padding: 0;
+}
+header{
+background-color: #26A246;
+	color: #ffff;
+	padding-top: 30px;
+	min-height: 45px;
+	border-bottom: #8C6B6B ;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+
+}
+header #marca{
+	float: left;
+
+}
+header #marca h1{
+margin: 0;
+	
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .actual a{
+	color: #237491;
+	font-weight:bold;
+
+
+}
+header a:hover{
+	color:#ccc;
+font-weight:bold;	
+}
